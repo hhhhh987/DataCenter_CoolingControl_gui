@@ -1,0 +1,5 @@
+model1  MSE少量数据         预测完整值
+model2  MSE全部数据         预测完整值
+model3  L1全部数据          预测差值
+model4  MSE全部数据         预测差值
+model5  SmoothL1全部数据    预测差值

@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+
+# Build and packaged output
+**/build/
+**/build_*/
+**/dist/
+**/dist_*/
+**/_internal/
+*.exe
+*.dll
+*.pkg
+*.pyz
+*.zip
+
+# Generated logs
+**/logs/
+**/hourly_log.csv
+
+# Large data and model files
+*.parquet
+*.pt
+*.pth
+*.pkl
+
+# Local credentials and device settings
+**/auth_config.json
+**/plc_settings.json
+**/*secret*
+**/*token*
+**/*password*
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
